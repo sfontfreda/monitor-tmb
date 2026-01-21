@@ -2,32 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import IncomingBus from "@/components/IncomingBus";
-
-type BusInfo = {
-  nom_linia: string;
-  desti: string;
-  temps_arribada: number;
-};
-
-type IncomingBusesTimestamp = {
-  temps_arribada: number;
-};
-
-type StopRoutes = {
-  nom_linia: string;
-  desti_trajecte: string;
-  propers_busos?: IncomingBusesTimestamp[];
-};
-
-type Stop = {
-  linies_trajectes: StopRoutes[];
-};
-
-type APIResponse = {
-  parades?: Stop[];
-  error?: string;
-};
-
+import type { APIResponse, BusInfo, StopRoute, IncomingBusTimestamp } from "@/lib/types";
 
 export default function Home() {
   const [data, setData] = useState<APIResponse | null>(null);
