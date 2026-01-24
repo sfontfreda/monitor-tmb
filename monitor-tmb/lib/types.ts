@@ -15,8 +15,15 @@ export type StopRoutes = {
 };
 
 export type Stop = {
+  nom_parada: string;
+  codi_parada: string;
   linies_trajectes: StopRoutes[];
 };
+
+export type SavedStop = {
+  code: string;
+  name: string;
+}
 
 export type APIResponse = {
   parades?: Stop[];
