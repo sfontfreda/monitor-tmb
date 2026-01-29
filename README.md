@@ -1,13 +1,15 @@
-
 # 🚌 TMB Monitor
 
 Monitor en temps real per visualitzar les arribades de busos de TMB (Transports Metropolitans de Barcelona).
-
   ![Next.js](https://img.shields.io/badge/Next.js-14-black) ![Pantalla Principal](https://img.shields.io/badge/Resoluci%C3%B3-800x480-blue) ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue) ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-38bdf8)
+
+
 
 ##  Descripció
 
 Aplicació web dissenyada per funcionar en una Raspberry Pi amb pantalla tàctil de 7" (800x480px) que mostra en temps real les pròximes arribades de busos de fins a 3 parades diferents de TMB.
+
+<img width="4100" height="1364" alt="monitorTMB" src="https://github.com/user-attachments/assets/af105873-992a-4fe9-9c56-4b14b7d56fa0" />
 
   
 ## Característiques
